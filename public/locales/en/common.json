@@ -4,31 +4,5 @@
     "description": "WalifEthiopia empowers agents to match skilled professionals with international employers through our verified candidate network.",
     "agent_login": "Agent Login",
     "our_process": "Our Process"
-  },
-  "features": {
-    "candidate_vetting": {
-      "title": "Candidate Vetting",
-      "description": "AI-powered screening with comprehensive background checks and skill verification"
-    },
-    "agent_dashboard": {
-      "title": "Agent Dashboard",
-      "description": "Real-time tracking of candidate placements with analytics and reporting tools"
-    },
-    "training_programs": {
-      "title": "Training Programs",
-      "description": "Specialized courses to prepare candidates for international employment"
-    },
-    "document_processing": {
-      "title": "Document Processing",
-      "description": "End-to-end handling of work permits, visas, and legal documentation"
-    },
-    "employer_matching": {
-      "title": "Employer Matching",
-      "description": "Smart algorithm connecting candidates with ideal international employers"
-    },
-    "support": {
-      "title": "24/7 Support",
-      "description": "Dedicated assistance for agents and candidates throughout the process"
-    }
   }
 }

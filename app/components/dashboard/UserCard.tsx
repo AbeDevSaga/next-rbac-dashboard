@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { GoTriangleDown, GoTriangleUp } from "react-icons/go";
 import Image from "next/image";
 import { FaUserAlt } from "react-icons/fa";
 import { TUser } from "@/app/constants/type";
