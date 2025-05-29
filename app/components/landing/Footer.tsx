@@ -33,12 +33,8 @@ const Footer: React.FC<footerProps> = ({ footer }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-xl font-bold mb-4">WalifEthiopia</h3>
-            <p className="mb-4">
-              Connecting Ethiopian talent with global opportunities through
-              professional training and placement services.
-            </p>
-
+            <h3 className="text-xl font-bold mb-4">{footer.header.title}</h3>
+            <p className="mb-4">{footer.header.description}</p>
             {/* Social Media */}
             <div className="flex space-x-4 mb-6">
               {footer?.socialMedia?.map((social, index) => (
@@ -118,9 +114,9 @@ const Footer: React.FC<footerProps> = ({ footer }) => {
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
           <p>{footer?.copyrightText}</p>
-          <p className="mt-2 text-sm">
+          {/* <p className="mt-2 text-sm">
             Licensed by Ethiopian Ministry of Labor and Skills
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

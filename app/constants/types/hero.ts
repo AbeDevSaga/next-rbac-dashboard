@@ -4,12 +4,12 @@ import bg from "@/public/images/bg.jpg";
 export const defaultHeroData: THero = {
   title: {
     key: "hero.title",
-    default: "Connecting Ethiopian Talent with Global Opportunities",
+    default: "Secure and Dynamic RBAC Dashboard for Modern Web Apps",
   },
   description: {
     key: "hero.description",
     default:
-      "WalifEthiopia empowers agents to match skilled professionals with international employers through our verified candidate network.",
+      "Manage users, roles, and permissions seamlessly with our responsive, Next.js-powered RBAC dashboard — designed for flexibility, speed, and scalability.",
   },
   backgroundImage: bg,
   overlayColor: "bg-black/30",

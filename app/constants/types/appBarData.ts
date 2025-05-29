@@ -1,5 +1,5 @@
 import { TAppBar } from "../type";
-import logo from "@/public/images/walif.png";
+import logo from "@/public/images/abe.png";
 
 export const appBarData: TAppBar = {
   logo: {

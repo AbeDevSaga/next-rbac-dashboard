@@ -1,43 +1,64 @@
 import { TFooterProps } from "../type";
 
 export const defaultFooterData: TFooterProps = {
+  header: {
+    title: "RBAC Dashboard",
+    description:
+      "Crafted by Amanuel Daniel (AbeDevSaga), a full-stack dev from Ethiopia. Open for jobs and collabs, let’s connect!",
+  },
   sections: [
     {
       title: "Quick Links",
       links: [
         { title: "Home", href: "#hero" },
-        { title: "Services", href: "#features" },
-        { title: "Success", href: "#testimonials" },
-        { title: "Contact", href: "#contact" }
-      ]
+        { title: "Features", href: "#features" },
+        { title: "Testimonials", href: "#testimonials" },
+        { title: "Contact", href: "#contact" },
+      ],
     },
-    // {
-    //   title: "For Candidates",
-    //   links: [
-    //     { title: "Register", href: "/register" },
-    //     { title: "Training Programs", href: "/training" },
-    //     { title: "Job Listings", href: "/jobs" }
-    //   ]
-    // },
     {
-      title: "For Agents",
+      title: "Connect With Me",
       links: [
-        { title: "Agent Login", href: "/agent/login" },
-        { title: "Become an Agent", href: "/agent/register" },
-        { title: "Resources", href: "/agent/resources" }
-      ]
-    }
+        { title: "GitHub", href: "https://github.com/AbeDevSaga" },
+        {
+          title: "Portfolio",
+          href: "https://portfolio-abedevsagas-projects.vercel.app/",
+        },
+        {
+          title: "LinkedIn",
+          href: "https://linkedin.com/in/amanuel-daniel-4573b1309/",
+        },
+        { title: "Email Me", href: "mailto:2000amandanm@gmail.com" },
+      ],
+    },
   ],
   socialMedia: [
-    { platform: "Facebook", icon: "facebook", href: "https://facebook.com/WalifEthiopia" },
-    { platform: "Twitter", icon: "twitter", href: "https://twitter.com/WalifEthiopia" },
-    { platform: "LinkedIn", icon: "linkedin", href: "https://linkedin.com/company/WalifEthiopia" },
-    { platform: "Instagram", icon: "instagram", href: "https://instagram.com/WalifEthiopia" }
+    {
+      platform: "Telegram",
+      icon: "telegram",
+      href: "https://t.me/AbeDani/",
+    },
+    {
+      platform: "Upwork",
+      icon: "upwork",
+      href: "https://www.upwork.com/freelancers/~014e7dc7fe05aa7131/",
+    },
+    {
+      platform: "GitHub",
+      icon: "github",
+      href: "https://github.com/AbeDevSaga/",
+    },
+    {
+      platform: "LinkedIn",
+      icon: "linkedin",
+      href: "https://linkedin.com/in/amanuel-daniel-4573b1309/",
+    },
   ],
   contactInfo: {
-    email: "info@WalifEthiopia.com",
-    phone: "+251 912 345 678",
-    address: "Addis Ababa, Ethiopia"
+    email: "2000amandanm@gmail.com",
+    phone: "+251919755719",
+    address: "Addis Ababa, Ethiopia",
   },
-  copyrightText: "© 2023 WalifEthiopia. All rights reserved."
+  copyrightText:
+    "© 2025 Amanuel Daniel (AbeDevSaga). Built for the dev community.",
 };

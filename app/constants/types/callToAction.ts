@@ -2,20 +2,20 @@ import { TCallToAction } from "../type";
 import bg from "@/public/images/bg.jpg";
 
 export const defaultCallToAction: TCallToAction = {
-  title: "Ready to Transform Your Future?",
-  description: "Join hundreds of successful candidates who found international opportunities through WalifEthiopia.",
+  title: "Ready to Take Control of Your Platform?",
+  description: "Empower your team with a scalable RBAC dashboard built with Next.js, Tailwind, Redux, and MongoDB — crafted by AbeDevSaga.",
   backgroundColor: "primary",
   backgroundImage: bg,
   buttons: [
     {
-      text: "Contact Us Now",
+      text: "Check it on GitHub",
       variant: "solid",
-      href: "/contact"
+      href: "https://github.com/AbeDevSaga/next-rbac-dashboard"
     },
     {
-      text: "Call +251 912 345 678",
+      text: "Contact Me",
       variant: "outline",
-      href: "tel:+251912345678"
+      href: "mailto:2000amandanm@gmail.com"
     }
   ],
   textColor: {

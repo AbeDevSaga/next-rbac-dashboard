@@ -1,33 +1,44 @@
-import profile1 from "@/public/profiles/profile 1.jpg";
-import profile2 from "@/public/profiles/profile 1.jpg";
-import { TTestimony } from "../type";
+import adminProfile from "@/public/profiles/profile 1.jpg";
+import managerProfile from "@/public/profiles/profile 1.jpg";
+import userProfile from "@/public/profiles/profile 1.jpg";
+import { TTestimonal } from "../type";
 
-export const testimonyData: TTestimony[] = [
-  {
-    quote: "WalifEthiopia helped me place 12 qualified nurses in Germany within 3 months. Their vetting process saves me countless hours.",
-    name: "Alemayehu Kebede",
-    role: "Recruitment Agent",
-    company: "Global Talent Solutions",
-    profileImage: profile1,
-    color: "primary",
-    rating: 5
+export const testimonyData: TTestimonal = {
+  header: {
+    title: "What Our Users Say",
+    description:
+      "Hear from those who have transformed their user management with our RBAC dashboard.",
   },
-  {
-    quote: "The training program transformed my hospitality skills. I went from unemployed to a supervisor position in Dubai within 6 months.",
-    name: "Tigist Worku",
-    role: "Hotel Supervisor",
-    company: "Grand Hyatt Dubai",
-    profileImage: profile2,
-    color: "secondary",
-    rating: 4
-  },
-  {
-    quote: "As an agent, the dashboard analytics help me track candidate progress and optimize my placement strategy effectively.",
-    name: "Daniel Assefa",
-    role: "Senior Agent",
-    company: "EthioJobs International",
-    color: "neutral",
-    rating: 5
-  },
-  // Add more testimonials as needed
-];
+  testimonies: [
+    {
+      quote:
+        "The RBAC dashboard’s granular role control saved us hours in user management and boosted our security compliance.",
+      name: "Sarah Johnson",
+      role: "System Administrator",
+      company: "Tech Corp",
+      profileImage: adminProfile,
+      color: "primary",
+      rating: 5,
+    },
+    {
+      quote:
+        "Dynamic routing based on permissions means my team only sees what matters, improving focus and reducing errors.",
+      name: "Mark Lee",
+      role: "Project Manager",
+      company: "Innovate Solutions",
+      profileImage: managerProfile,
+      color: "secondary",
+      rating: 4,
+    },
+    {
+      quote:
+        "Real-time permission updates let me quickly adapt to new projects without waiting for admin intervention.",
+      name: "Jessica Chen",
+      role: "Developer",
+      company: "NextGen Apps",
+      profileImage: userProfile,
+      color: "neutral",
+      rating: 5,
+    },
+  ],
+};

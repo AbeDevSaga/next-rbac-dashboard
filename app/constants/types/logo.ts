@@ -1,4 +1,4 @@
-import logo from "@/public/images/walif.png";
+import logo from "@/public/images/abe.png";
 import { TLogo } from "../type";
 
 export const logoData: TLogo = {

@@ -5,6 +5,20 @@ export type TTranslatable = string | { key: string; default: string };
 export type TRole = "admin" | "super-admin" | "agent" | "candidate";
 
 // Common Types
+// export type THeadline = {
+//   title: TTranslatable;
+//   description: TTranslatable;
+//   image?: string | StaticImageData;
+//   imageAlt?: string;
+// };
+
+export type THeadline = {
+  title: string;
+  description: string;
+  image?: string | StaticImageData;
+  imageAlt?: string;
+};
+
 export type TLanguage = {
   country: {
     image: StaticImageData;
@@ -25,6 +39,25 @@ export type TLogo = {
   width: number;
   height: number;
   className?: string;
+};
+
+export type TTestimony = {
+  quote: string;
+  name: string;
+  role: string;
+  company?: string;
+  profileImage?: string | StaticImageData;
+  color?: "primary" | "secondary" | "neutral";
+  delay?: number;
+  rating?: number;
+};
+
+export type TFeatures = {
+  title: string;
+  description: string;
+  icon: string;
+  color?: string;
+  delay?: number;
 };
 
 // Components Types
@@ -56,23 +89,14 @@ export type THero = {
   }[];
 };
 
-export type TFeatures = {
-  title: string;
-  description: string;
-  icon: string;
-  color?: string;
-  delay?: number;
+export type TTestimonal = {
+  header: THeadline;
+  testimonies: TTestimony[];
 };
 
-export type TTestimony = {
-  quote: string;
-  name: string;
-  role: string;
-  company?: string;
-  profileImage?: string | StaticImageData;
-  color?: "primary" | "secondary" | "neutral";
-  delay?: number;
-  rating?: number;
+export type TFeatureSection = {
+  header: THeadline;
+  features: TFeatures[];
 };
 
 export type TCallToAction = {
@@ -112,6 +136,7 @@ export type TSocialMedia = {
 };
 
 export type TFooterProps = {
+  header: THeadline;
   sections: TFooterSection[];
   socialMedia: TSocialMedia[];
   contactInfo: {

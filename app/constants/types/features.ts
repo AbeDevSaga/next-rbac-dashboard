@@ -1,40 +1,53 @@
-import { TFeatures } from "../type";
+import { TFeatureSection } from "../type";
 
-export const featuresData: TFeatures[] = [
-  {
-    title: "Candidate Vetting",
-    description: "AI-powered screening with comprehensive background checks and skill verification",
-    icon: "🔍",
-    color: "primary"
+export const featuresData: TFeatureSection = {
+  header: {
+    title: "Key Features",
+    description:
+      "Explore the powerful features that make our RBAC dashboard a must-have for modern web applications.",
   },
-  {
-    title: "Agent Dashboard",
-    description: "Real-time tracking of candidate placements with analytics and reporting tools",
-    icon: "📊",
-    color: "secondary"
-  },
-  {
-    title: "Training Programs",
-    description: "Specialized courses to prepare candidates for international employment",
-    icon: "🎓",
-    color: "tertiary"
-  },
-  {
-    title: "Document Processing",
-    description: "End-to-end handling of work permits, visas, and legal documentation",
-    icon: "📑",
-    color: "primary"
-  },
-  {
-    title: "Employer Matching",
-    description: "Smart algorithm connecting candidates with ideal international employers",
-    icon: "🤝",
-    color: "secondary"
-  },
-  {
-    title: "24/7 Support",
-    description: "Dedicated assistance for agents and candidates throughout the process",
-    icon: "🛟",
-    color: "tertiary"
-  }
-];
+  features: [
+    {
+      title: "Role Management",
+      description:
+        "Easily create, assign, and manage user roles with fine-grained permission controls",
+      icon: "🛡️",
+      color: "primary",
+    },
+    {
+      title: "Dynamic Routing",
+      description:
+        "Routes adapt based on user permissions to securely control access to dashboard pages",
+      icon: "🚦",
+      color: "secondary",
+    },
+    {
+      title: "User Activity Logs",
+      description:
+        "Track user actions and access history for security audits and compliance",
+      icon: "📜",
+      color: "tertiary",
+    },
+    {
+      title: "Multi-level Access",
+      description:
+        "Support for nested roles and hierarchical permissions for complex organizations",
+      icon: "🏢",
+      color: "primary",
+    },
+    {
+      title: "Responsive Design",
+      description:
+        "Optimized for all screen sizes with a smooth user experience on mobile and desktop",
+      icon: "📱",
+      color: "secondary",
+    },
+    {
+      title: "Real-time Updates",
+      description:
+        "Instant permission changes and dashboard updates without page reloads",
+      icon: "⚡",
+      color: "tertiary",
+    },
+  ],
+};

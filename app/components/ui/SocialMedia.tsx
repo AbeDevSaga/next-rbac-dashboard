@@ -8,14 +8,22 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
+  FaTelegram,
+  FaWhatsapp,
+  FaGithub,
 } from "react-icons/fa";
+import { FaSquareUpwork } from "react-icons/fa6";
 type IconMapping = {
   [key: string]: React.ComponentType<{ className?: string }>;
 };
 const iconMapping: IconMapping = {
   facebook: FaFacebook,
+  telegram: FaTelegram,
+  whatsapp: FaWhatsapp,
   twitter: FaTwitter,
   linkedin: FaLinkedin,
+  github: FaGithub,
+  upwork: FaSquareUpwork,
   instagram: FaInstagram,
   phone: FaPhone,
   envelope: FaEnvelope,
