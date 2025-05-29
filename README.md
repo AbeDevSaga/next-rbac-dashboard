@@ -49,7 +49,6 @@ A modern fullstack web application featuring:
 - **NextAuth.js**
 - And more…
 
-
 ## 📥 Installation
 
 ```bash
