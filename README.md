@@ -9,7 +9,12 @@
 💻 Author
 Amanuel Daniel
 
-🌍 Live Demo
+## 🌐 Live Demo
+👉 [Visit the Live Dashboard](https://next-rbac-dashboard-qykd.vercel.app)
+
+Admin Login
+📧 admin@walifethiopia.com
+🔑 admin123
 
 ## 📖 Overview
 
