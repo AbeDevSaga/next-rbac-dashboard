@@ -6,8 +6,10 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-💻 Author
-Amanuel Daniel
+
+## 📖 Overview
+
+A modern fullstack web application featuring:
 
 ## 🌐 Live Demo
 👉 [Visit the Live Dashboard](https://next-rbac-dashboard-qykd.vercel.app)
@@ -16,27 +18,25 @@ Admin Login
 📧 admin@walifethiopia.com
 🔑 admin123
 
-## 📖 Overview
-
-A modern fullstack web application featuring:
+💻 Author
+Amanuel Daniel
+---
 
 - 🚀 Next.js for fast, scalable React applications with SSR.
 - 💙 TypeScript for type-safe development.
 - 🎛️ Redux for powerful state management.
 - 🎨 Tailwind CSS for utility-first, responsive UI.
-- 🔒 Dynamic Role-Based Access Control (RBAC) system.
-- 📱 Fully responsive design optimized for mobile, tablet, and desktop.
 - 🌱 MongoDB for flexible, scalable NoSQL database management.
 
 ## 📂 Features
 
-- Modern, elegant landing page.
-- Dynamic dashboard with role-based routing.
-- Modular, scalable code structure.
-- RESTful API integration.
-- Fully responsive — looks perfect on all screen sizes.
-- Clean UI built with Tailwind CSS.
-- Secure authentication and authorization flows.
+- 🔒 Dynamic RBAC system with NextAuth.js
+- 🌐 **Multi-language support (English 🇬🇧 | Amharic 🇪🇹 | Arabic 🇸🇦)** using `next-i18next`
+- ⚛️ Modular, scalable, and clean code structure
+- 🚀 RESTful API integration
+- 📱 Fully responsive and mobile-friendly
+- 🎨 Elegant, minimalist design with Tailwind CSS
+- 🗄️ MongoDB-backed dynamic data management
 
 ## 📦 Tech Stack
 
@@ -47,7 +47,22 @@ A modern fullstack web application featuring:
 - **MongoDB**
 - **React Hook Form** 
 - **NextAuth.js**
+- **next-i18next**
 - And more…
+---
+
+## 🌐 Language Support
+
+[![English 🇬🇧](https://img.shields.io/badge/English-🇬🇧-lightgrey)](#)
+[![Amharic 🇪🇹](https://img.shields.io/badge/Amharic-🇪🇹-green)](#)
+[![Arabic 🇸🇦](https://img.shields.io/badge/Arabic-🇸🇦-orange)](#)
+
+Project supports locale switching between:
+- `en` - English (default)
+- `am` - Amharic
+- `ar` - Arabic
+---
+
 
 ## 📥 Installation
 
@@ -56,4 +71,20 @@ git clone https://github.com/AbeDevSaga/next-rbac-dashboard.git
 cd next-rbac-dashboard
 npm install
 npm run dev
+
+
+👨‍💻 About the Developer
+Amanuel Daniel (aka AbeDevSaga) — a passionate full-stack developer from Addis Ababa, Ethiopia 🇪🇹. Specializing in scalable, secure web applications with strong API integrations and role-based architectures.
+
+If you cloned this project and you're hiring, collaborating, or just want to connect:
+
+🌐 Portfolio
+
+💼 LinkedIn
+
+🐙 GitHub
+
+📧 2000amandanm@gmail.com
+
+📞 +251 919 755 719
 
