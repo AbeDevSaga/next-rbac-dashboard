@@ -77,13 +77,14 @@ Amanuel Daniel (aka AbeDevSaga) — a passionate full-stack developer from Addis
 
 If you cloned this project and you're hiring, collaborating, or just want to connect:
 
-🌐 Portfolio
+[🌐 Portfolio](https://portfolio-abedevsagas-projects.vercel.app/)
 
-💼 LinkedIn
+[💼 LinkedIn](https://linkedin.com/in/amanuel-daniel-4573b1309/)
 
-🐙 GitHub
+[🐙 GitHub](https://github.com/AbeDevSaga)
 
-📧 2000amandanm@gmail.com
+[📧 2000amandanm@gmail.com](mailto:2000amandanm@gmail.com)
 
-📞 +251 919 755 719
+
+
 
