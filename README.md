@@ -1,4 +1,9 @@
 # Next RBAC Dashboard
+💻 Author
+Amanuel Daniel
+
+🌍 Live Demo
+
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -47,3 +52,4 @@ git clone https://github.com/AbeDevSaga/next-rbac-dashboard.git
 cd next-rbac-dashboard
 npm install
 npm run dev
+
