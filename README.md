@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next RBAC Dashboard
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-First, run the development server:
+💻 Author
+Amanuel Daniel
+
+🌍 Live Demo
+
+## 📖 Overview
+
+A modern fullstack web application featuring:
+
+- 🚀 Next.js for fast, scalable React applications with SSR.
+- 💙 TypeScript for type-safe development.
+- 🎛️ Redux for powerful state management.
+- 🎨 Tailwind CSS for utility-first, responsive UI.
+- 🔒 Dynamic Role-Based Access Control (RBAC) system.
+- 📱 Fully responsive design optimized for mobile, tablet, and desktop.
+- 🌱 MongoDB for flexible, scalable NoSQL database management.
+
+## 📂 Features
+
+- Modern, elegant landing page.
+- Dynamic dashboard with role-based routing.
+- Modular, scalable code structure.
+- RESTful API integration.
+- Fully responsive — looks perfect on all screen sizes.
+- Clean UI built with Tailwind CSS.
+- Secure authentication and authorization flows.
+
+## 📦 Tech Stack
+
+- **Next.js**
+- **TypeScript**
+- **Redux Toolkit**
+- **Tailwind CSS**
+- **MongoDB**
+- **React Hook Form** 
+- **NextAuth.js**
+- And more…
+
+
+## 📥 Installation
 
 ```bash
+git clone https://github.com/AbeDevSaga/next-rbac-dashboard.git
+cd next-rbac-dashboard
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
