@@ -10,10 +10,19 @@ export const defaultFooterData: TFooterProps = {
     {
       title: "Quick Links",
       links: [
-        { title: "Home", href: "#hero" },
-        { title: "Features", href: "#features" },
-        { title: "Testimonials", href: "#testimonials" },
-        { title: "Contact", href: "#contact" },
+        { title: { key: "link.hero", default: "Home" }, href: "#hero" },
+        {
+          title: { key: "link.features", default: "Services" },
+          href: "#features",
+        },
+        {
+          title: { key: "link.testimonials", default: "Success Stories" },
+          href: "#testimonials",
+        },
+        {
+          title: { key: "link.contact", default: "Contact Us" },
+          href: "#contact",
+        },
       ],
     },
     {

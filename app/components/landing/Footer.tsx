@@ -3,12 +3,23 @@ import Link from "next/link";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { TFooterProps, TFooterSection } from "@/app/constants/type";
 import SocialMedia from "../ui/SocialMedia";
+import { useTranslation } from "next-i18next";
 
 interface footerProps {
   footer: TFooterProps;
 }
 
 const Footer: React.FC<footerProps> = ({ footer }) => {
+  const { t } = useTranslation("common");
+
+  const getTranslatedContent = React.useCallback(
+    (content: string | { key: string; default: string }) => {
+      if (typeof content === "string") return content;
+      return t(content.key, { defaultValue: content.default });
+    },
+    [t]
+  );
+
   const handleSmoothScroll = (e: React.MouseEvent, href: string) => {
     if (href.startsWith("#")) {
       e.preventDefault();
@@ -63,14 +74,14 @@ const Footer: React.FC<footerProps> = ({ footer }) => {
                         onClick={(e) => handleSmoothScroll(e, link.href)}
                         className="hover:text-blue-400 transition-colors"
                       >
-                        {link.title}
+                        {getTranslatedContent(link.title)}
                       </Link>
                     ) : (
                       <Link
                         href={link.href}
                         className="hover:text-blue-400 transition-colors"
                       >
-                        {link.title}
+                        {getTranslatedContent(link.title)}
                       </Link>
                     )}
                   </li>

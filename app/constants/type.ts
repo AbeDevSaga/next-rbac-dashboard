@@ -29,7 +29,7 @@ export type TLanguage = {
 
 export type TNavLink = {
   href: string;
-  label: string;
+  label: TTranslatable;
   className?: string;
 };
 
@@ -63,7 +63,7 @@ export type TFeatures = {
 // Components Types
 export type TButton = {
   href: string;
-  label: string;
+  label: TTranslatable;
   className?: string;
 };
 
@@ -119,7 +119,7 @@ export type TCallToAction = {
 
 // Footer Section Types
 export type TFooterLink = {
-  title: string;
+  title: TTranslatable;
   href: string;
   external?: boolean;
 };

@@ -10,14 +10,17 @@ export const appBarData: TAppBar = {
     className: "h-10 w-auto",
   },
   links: [
-    { href: "#hero", label: "Home" },
-    { href: "#features", label: "Services" },
-    { href: "#testimonials", label: "Success Stories" },
-    { href: "#about", label: "About Us" },
-    { href: "#contact", label: "Contact" },
+    { href: "#hero", label: { key: "link.hero", default: "Home" } },
+    { href: "#features", label: { key: "link.features", default: "Services" } },
+    {
+      href: "#testimonials",
+      label: { key: "link.testimonials", default: "Success Stories" },
+    },
+    { href: "#about", label: { key: "link.about", default: "About Us" } },
+    { href: "#contact", label: { key: "link.contact", default: "Contact Us" } },
   ],
   button: {
     href: "/auth/login",
-    label: "Login",
+    label: {key: "button.login", default:"Login"},
   },
 };

@@ -8,11 +8,20 @@ import { motion, AnimatePresence } from "framer-motion";
 import { LanguageSelection } from "../ui/LanguageSelection";
 import { useRouter } from "next/navigation";
 import { useTranslation } from "next-i18next";
+import React from "react";
 
 export default function AppBar({ logo, links, button }: TAppBar) {
   const router = useRouter();
-  const { t } = useTranslation("common");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const { t } = useTranslation("common");
+  const getTranslatedContent = React.useCallback(
+    (content: string | { key: string; default: string }) => {
+      if (typeof content === "string") return content;
+      return t(content.key, { defaultValue: content.default });
+    },
+    [t]
+  );
 
   const handleSmoothScroll = (e: React.MouseEvent, href: string) => {
     e.preventDefault();
@@ -59,7 +68,7 @@ export default function AppBar({ logo, links, button }: TAppBar) {
                 link.className || ""
               }`}
             >
-              {link.label}
+              {getTranslatedContent(link.label)}
             </Link>
           ))}
         </nav>
@@ -71,7 +80,7 @@ export default function AppBar({ logo, links, button }: TAppBar) {
             href={button.href}
             className={`bg-white text-gray-900 px-6 py-2 rounded-lg hover:bg-gray-100 transition duration-200`}
           >
-            {button.label}
+            {getTranslatedContent(button.label)}
           </Link>
         </div>
 
@@ -160,7 +169,7 @@ export default function AppBar({ logo, links, button }: TAppBar) {
                             link.className || ""
                           }`}
                         >
-                          {link.label}
+                          {getTranslatedContent(link.label)}
                         </Link>
                       </motion.div>
                     ))}
@@ -189,7 +198,7 @@ export default function AppBar({ logo, links, button }: TAppBar) {
                       className={`block w-full text-center bg-white text-gray-900 px-6 py-3 rounded-lg text-lg hover:bg-gray-100`}
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      {button.label}
+                      {getTranslatedContent(button.label)}
                     </Link>
                   </motion.div>
                 </div>

@@ -17,4 +17,22 @@ export const defaultHeroData: THero = {
     primary: "text-white",
     secondary: "text-gray-200",
   },
+  ctaButtons: [
+    {
+      text: {
+        key: "hero.cta.primary",
+        default: "Get Started",
+      },
+      variant: "primary",
+      href: "#features",
+    },
+    {
+      text: {
+        key: "hero.cta.secondary",
+        default: "Learn More",
+      },
+      variant: "secondary",
+      href: "#about",
+    },
+  ],
 };

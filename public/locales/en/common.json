@@ -1,8 +1,36 @@
 {
   "hero": {
-    "title": "Connecting Ethiopian Talent with Global Opportunities",
-    "description": "WalifEthiopia empowers agents to match skilled professionals with international employers through our verified candidate network.",
-    "agent_login": "Agent Login",
-    "our_process": "Our Process"
+    "title": "Secure and Dynamic RBAC Dashboard for Modern Web Apps",
+    "description": "Manage users, roles, and permissions seamlessly with our responsive, Next.js-powered RBAC dashboard — designed for flexibility, speed, and scalability.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    }
+  },
+  "footer": {
+    "text": "© 2024 RBAC Dashboard. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "link": {
+    "hero": "Home",
+    "features": "Services",
+    "testimonials": "Success Stories",
+    "about": "About Us",
+    "contact": "Contact Us"
+  }, 
+  "button": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "update": "Update",
+    "create": "Create",
+    "view": "View",
+    "search": "Search",
+    "submit": "Submit"
   }
 }
