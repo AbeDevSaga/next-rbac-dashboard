@@ -51,7 +51,7 @@ export default function LoginPage() {
               Welcome back
             </h2>
             <p className="mt-2 text-sm text-gray-600">
-              Sign in to your WalifEthiopia account
+              Sign in to your RBAC Dashboard account
             </p>
           </div>
 
