@@ -18,8 +18,6 @@ Admin Login
 📧 admin@walifethiopia.com
 🔑 admin123
 
-💻 Author
-Amanuel Daniel
 ---
 
 - 🚀 Next.js for fast, scalable React applications with SSR.
@@ -72,8 +70,9 @@ cd next-rbac-dashboard
 npm install
 npm run dev
 
+```
 
-👨‍💻 About the Developer
+## 👨‍💻 About the Developer
 Amanuel Daniel (aka AbeDevSaga) — a passionate full-stack developer from Addis Ababa, Ethiopia 🇪🇹. Specializing in scalable, secure web applications with strong API integrations and role-based architectures.
 
 If you cloned this project and you're hiring, collaborating, or just want to connect:
