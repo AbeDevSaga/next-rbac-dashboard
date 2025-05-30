@@ -12,7 +12,7 @@
 A modern fullstack web application featuring:
 
 ## 🌐 Live Demo
-👉 [Visit the Live Dashboard](https://next-rbac-dashboard-qykd.vercel.app)
+👉 [Visit the Live Dashboard](https://next-rbac-dashboard.vercel.app/)
 
 Admin Login
 📧 admin@walifethiopia.com
